@@ -1,0 +1,168 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title>Kafić 25 maj</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,300&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+		
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<meta name="description" content="Kafić u kom možete popiti piće, nešto i pojesti i uveče dobro povesti uz uživo svirku."/>
+		<meta name="keywords" content="Kafić 25 maj, hrana, restoran, uživo svirka, piće, dezert."/>
+		<meta name="author" content="Aleksandra Blažić">
+		
+		<link type="text/css" href="assets/css/style.css" rel="stylesheet"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css"/>
+		
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		
+		<script src="https://kit.fontawesome.com/dd5c641644.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<header class="bg-secondary">
+			<div class="bkw mx-auto">
+				<div class="row">
+					<nav class="navbar navbar-expand-lg">
+						<div class="container-fluid">
+							
+							<a class="navbar-brand fw-bold bk-light fs-3" href="index.html">Dvadesetpeti maj</a>
+							
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+								<ul class="navbar-nav bk-blue" id="meni">
+									<li class="nav-item">
+										<a class="nav-link text-end bk-light fs-5" href="index.html">Početna</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-end bk-light fs-5" href="galerija.html">Galerija</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-end bk-light fs-5 active" href="kontakt.html">Kontakt</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link text-end bk-light fs-5" href="oautoru.html">O autoru</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+		<div class="container mt-5 mb-3">
+			<div class="row">
+				<div class="col-12 col-sm-6 text-center">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2830.3335135524567!2d20.482502215535806!3d44.81
+						47697790986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7a95dfdba1fb%3A0x7dd3ed9b437a11d6!
+						2z0JfQtNGA0LDQstC60LAg0KfQtdC70LDRgNCwIDE2LCDQkdC10L7Qs9GA0LDQtA!5e0!3m2!1ssr!2srs!4v1636663884513!5m2!1ssr!2srs" width="80%" height="80%" style="border:0;" allowfullscreen="" loading="lazy">
+					</iframe>
+				</div>
+				
+			
+				
+				<div class="col-md">
+					<div class="row">
+					<h1 class="mb-3 text-center">Rezervacija</h1>
+						<form action="submit.php" method="post" class="row g-3 mb-5">
+							<div class="col-md-6">
+								<label for="f1" class="form-label">Name</label>
+								<input type="text" class="form-control" id="f1"/>
+							</div>
+							<div class="col-md-6">
+								<label for="f2" class="form-label">Prezime</label>
+								<input type="text" class="form-control" id="f2"/>
+							</div>
+							<div class="col-md-6">
+								<label for="f3" class="form-label">Email</label>
+								<input type="email" class="form-control" id="f3" placeholder="aleksandra.blazic.46.23@ict.edu.rs"/>
+							</div>
+							<div class="col-md-6">
+								<label for="f4" class="form-label">Dan</label>
+								<select id="f4" class="form-control" name="f4">
+									<option value="p1">Petak</option>
+									<option value="p2">Subota</option>
+								</select>
+							</div>
+							<div class="col-md-6">
+								<label for="f5" class="form-label">Broj osoba</label>
+								<select id="f5" class="form-control" name="f5">
+									<option value="p1">1</option>
+									<option value="p2">4</option>
+									<option value="p3">10</option>
+								</select>
+							</div>
+							<div class="col-md-6">
+								<label for="f6" class="form-label">Telefon</label>
+								<input type="tel" class="form-control" id="f6" placeholder="+381 60 12 34 567"/>
+							</div>
+							
+							<div class="col-12" class="form-floating">
+								<label for="f7" class="form-label">Poruka</label>
+								<textarea id="f7"  class="form-control" placeholder="Ostavite poruku ovde"></textarea>
+							</div>									
+								
+							
+							<div class="col-12">
+								<button type="submit" class="btn btn-primary">Pošalji</button>
+								<button type="reset" class="btn btn-primary">Odustani</button>
+							</div>
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<footer class="bg-secondary">
+			<div class="container">
+				<div class="row py-5">
+					
+					<div class="text-center col-12 col-sm-6 col-md-4">
+						<h3 class="text-white h4">Kontaktirajte nas :</h3>
+						<ul class="text-white p-0 m-0 lista">
+							<li class="slovav"><i class="far fa-clock text-white"></i>   Radno Vreme: 08-00:00h</li>
+							<li class="slovav"><i class="fas fa-map-marker-alt text-white"></i>   Zdravka Čelara, Beograd</li>
+							<li class="slovav"><i class="fas fa-phone-alt text-white"></i>   060 15 10 300</li>
+						</ul>
+					</div>
+					<div class="text-center col-12 col-sm-6 col-md-4">
+						<h3 class="text-white h4">Društvene mreže:</h3>
+							<ul class="lista p-0 m-0">
+								<li>
+									<a href="https://www.instagram.com/" class="text-white">
+									<i class="fab fa-instagram"></i>   Instagram</a>
+								</li>
+								<li>
+									<a href="https://www.facebook.com/" class="text-white">
+									<i class="fab fa-facebook"></i>   Facebook</a>
+								</li>
+								<li>
+									<a href="https://www.tiktok.com/" class="text-white">
+									<i class="fab fa-tiktok"></i>   Tik Tok</a>
+								</li>
+							</ul>
+					</div>
+					<div class="text-center col-12 col-sm-6 col-md-4">
+						<h3 class="text-white h4">Korisni linkovi:</h3>
+							<ul class="lista p-0 m-0">
+								<li><a href="sitemap.xml" class="text-white"><i class="fas fa-sitemap"></i>   Sitemap</a></li>
+								<li><a href="assets/css/style.css" class="text-white"><i class="fab fa-css3-alt"></i>   CSS</a></li>
+								<li><a href="rss.xml" class="text-white"><i class="fas fa-rss"></i>   RSS</a></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+	</body>
+	
+</html>
